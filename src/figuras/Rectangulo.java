@@ -2,8 +2,12 @@ package figuras;
 
 public class Rectangulo {
 
-	public Rectangulo() {
-		// TODO Auto-generated constructor stub
+	private double ancho;
+	private double alto;
+
+	public Rectangulo(double ancho, double alto) {
+		this.ancho = ancho;
+		this.alto = alto;
 	}
 
 }
