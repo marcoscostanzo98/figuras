@@ -9,6 +9,10 @@ public class Rectangulo {
 		this.ancho = ancho;
 		this.alto = alto;
 	}
+	
+	public double getPerimetro() {
+		return this.alto * 2 + this.ancho * 2;
+	}
 
 	@Override
 	public String toString() {
